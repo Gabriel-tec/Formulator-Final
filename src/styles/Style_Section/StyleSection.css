@@ -1,0 +1,12 @@
+
+.Section{
+    width: 99%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.Calculadora_Section{
+    width: 100%;
+    margin-left: 60%;
+}

@@ -1,0 +1,20 @@
+
+.Footer{
+    margin-top: 20px;
+    background: #252323;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    font-family: Oswald;
+    font-size: 1.2rem;
+}
+.Footer div h3:hover{
+    transition: 0.5s;
+    border-bottom: 1px solid red;
+}
+.Footer div li:hover{
+    transition: 0.5s;
+    border-bottom: 1px solid red;
+}
