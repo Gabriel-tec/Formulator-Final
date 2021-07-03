@@ -5,6 +5,9 @@ export default function NavBar(){
     return(
         <div className='NavBar_Formulas'>
             <h2>Fórmulas:</h2>
+            <ul>
+                <li>Bashkara</li>
+            </ul>
         </div>
     )
 }

@@ -1,0 +1,26 @@
+.BashkaraItems{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.BashkaraItems main{
+    width: 100%;
+    margin: 10px;
+}
+.BashkaraItems main input{
+    width: 25%;
+    margin: 15px;
+    padding: 5px;
+}
+.BashkaraItems button{
+    border: none;
+    border-radius: 10px;
+    width: 25%;
+    height: 25px;
+    color: white;
+    background: rgb(18, 18, 53);
+}
+.BashkaraItems button:hover{
+    transition: 0.5s;
+    background: linear-gradient(to right, rgb(18, 18, 53), rgb(87, 2, 87));
+}

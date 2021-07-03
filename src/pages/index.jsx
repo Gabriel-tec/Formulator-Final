@@ -2,14 +2,14 @@ import React from 'react';
 import logo from './LogoSize_Pinterest_ByTailorBrands/logo_size_invert.jpg';
 
 /*-----------[Fórmulas]---------*/
-import NavBar from '../components/navbar/NavBar'
+import NavBar from '../components/navbar/NavBar';
 import BlocoDeCalculo from '../components/formulas/BlocoDeCálculo';
-import Calculadora from '../components/calculadora/Calculadora'
+import Calculadora from '../components/calculadora/Calculadora';
 
 /*-----------[Estilos]---------*/
-import '../styles/Style_Footer/StyleFooter.css'
+import '../styles/Style_Footer/StyleFooter.css';
 import '../styles/Style_Header/StyleHeader.css';
-import '../styles/Style_Section/StyleSection.css'
+import '../styles/Style_Section/StyleSection.css';
 
 export default function Body(){
     return(
@@ -28,11 +28,12 @@ export default function Body(){
 
             <NavBar/>
 
+            <div>
             <BlocoDeCalculo/>
 
-            <div className='Calculadora_Section'>
-                <Calculadora/>
+            <Calculadora/>
             </div>
+
             
             </section>
             
