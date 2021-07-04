@@ -20,7 +20,7 @@ export default function Calculadora(){
     }
 
     const calculate = () =>{
-        try{
+        try{           
             SetResult(eval(result).toString())
         } catch(err){
             SetResult("ERROR")

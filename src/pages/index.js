@@ -56,7 +56,7 @@ export default function Body(){
                         <div className='Contatos'>
                             <h3>Contato:</h3>
                             <ul>
-                                <li><a target="_blank" href="https://github.com/Gabriel-tec">Github</a></li>
+                                <li><a href="https://github.com/Gabriel-tec" target="_blank" rel="noopener noreferrer"   >Github</a></li>
                                 <li>Whatsapp</li>
                                 <li>Linkedin</li>
                             </ul>
@@ -102,7 +102,7 @@ export default function Body(){
                         <div className='Contatos'>
                             <h3>Contato:</h3>
                             <ul>
-                                <li><a target="_blank" href="https://github.com/Gabriel-tec">Github</a></li>
+                                <li><a target="_blank" href="https://github.com/Gabriel-tec" rel="noopener noreferrer">Github</a></li>
                                 <li>Whatsapp</li>
                                 <li>Linkedin</li>
                             </ul>
@@ -149,7 +149,7 @@ export default function Body(){
                             <div className='Contatos'>
                                 <h3>Contato:</h3>
                                 <ul>
-                                    <li><a target="_blank" href="https://github.com/Gabriel-tec">Github</a></li>
+                                    <li><a target="_blank" href="https://github.com/Gabriel-tec" rel="noopener noreferrer">Github</a></li>
                                     <li>Whatsapp</li>
                                     <li>Linkedin</li>
                                 </ul>
@@ -182,7 +182,7 @@ export default function Body(){
                         <div className='Contatos'>
                             <h3>Contato:</h3>
                         <ul>
-                            <li><a target="_blank" href="https://github.com/Gabriel-tec">Github</a></li>
+                            <li><a href="https://github.com/Gabriel-tec" target="_blank" rel="noopener noreferrer">Github</a></li>
                             <li>Whatsapp</li>
                             <li>Linkedin</li>
                         </ul>
