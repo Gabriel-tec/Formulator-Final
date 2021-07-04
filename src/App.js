@@ -1,7 +1,7 @@
 
 import React from 'react';
 
-import Body from './pages/index.jsx'
+import Body from './pages/index.js'
 
 class App extends React.Component{
 
