@@ -1,0 +1,29 @@
+.SquareItems{
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+.SquareItems h1,h2{
+    text-align: center;
+    font-size: 1.6rem;
+}
+.SquareItems main{
+    width: 100%;
+}
+.SquareItems main input{
+    width: 70%;
+    padding: 5px;
+    margin: 5px;
+}
+.SquareItems main button{
+    border: none;
+    border-radius: 10px;
+    width: 25%;
+    height: 30px;
+    color: white;
+    background: rgb(18, 18, 53);
+}
+.SquareItems main button:hover{
+    transition: 0.5s;
+    background: linear-gradient(to right, rgb(18, 18, 53), rgb(87, 2, 87));
+}

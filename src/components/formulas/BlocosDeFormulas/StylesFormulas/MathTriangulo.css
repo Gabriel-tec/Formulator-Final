@@ -1,0 +1,30 @@
+.TriItems{
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+.TriItems h1,h2{
+    text-align: center;
+    font-size: 1.4rem;
+}
+.TriItems main{
+    width: 100%;
+    height: 100%;
+}
+.TriItems main input{
+    margin: 3px;
+    width: 40%;
+    padding: 5px;
+}
+.TriItems main button{
+    border: none;
+    border-radius: 10px;
+    width: 25%;
+    height: 25px;
+    color: white;
+    background: rgb(18, 18, 53);
+}
+.TriItems main button:hover{
+    transition: 0.5s;
+    background: linear-gradient(to right, rgb(18, 18, 53), rgb(87, 2, 87));
+}

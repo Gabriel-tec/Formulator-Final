@@ -28,7 +28,11 @@ body{
     margin-left: 25px;
     padding: 5px;
 }
-.Header div h3:hover{
+.Header div h3 a{
+    text-decoration: none;
+    color: white;
+}
+.Header div h3 a:hover{
     transition: 0.5s;
     color: rgb(212, 209, 209);
 }

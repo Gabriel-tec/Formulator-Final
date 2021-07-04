@@ -10,7 +10,17 @@
     font-family: Oswald;
     font-size: 1.2rem;
 }
-.Footer div h3:hover{
+.Footer div h3 a{
+    color: white;
+    text-decoration: none;
+    border: none;
+}
+.Footer div ul  li a{
+    color: white;
+    text-decoration: none;
+    border: none;
+}
+.Footer div h3 a:hover{
     transition: 0.5s;
     border-bottom: 1px solid red;
 }
